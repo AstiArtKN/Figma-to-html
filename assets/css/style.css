@@ -6,4 +6,13 @@ html {
 }
 body {
   font-size: 1.6rem; /*khôi phục cỡ chữ mặc định lại theo rem*/
+  /* font-family: "Poppins" sans-serif; */
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }

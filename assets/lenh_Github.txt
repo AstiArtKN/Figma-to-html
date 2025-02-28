@@ -1,0 +1,28 @@
+…or create a new repository on the command line
+	echo "# hoc_cach_Upload_lenh" >> README.md
+
+	git init --> khởi tạo git nằm trên máy chủ cục bộ
+
+	git add README.md ->> add thư mục vào staing area 
+		git add . ->> add tất cả
+		git add ten_thu_muc | ten_file ->> add từng thư mục, tệp
+
+
+	git commit -m "first commit"
+
+
+	git branch -M main ->> khi làm việc trên máy tính thì mặc dinh là (master) còn làm trên máy chủ git thì là nhánh (main) là nhánh chính nên dung lệnh này phải chuyển thành nhánh (main)
+
+
+	git remote add origin Link duong dẫn  ->> lệnh này sẽ cho biết là chúng ta sẽ upload di dau (nó sẽ thông báo lệnh và mở cổng kết nối đến dự án) . tuỳ Respository thì sẽ có link khác nhau
+
+
+	
+	git push -u origin main ->> day code lên trên Git
+
+vs code ko mở chrom thì mở thủ công (https://github.com/login/device)
+
+…or push an existing repository from the command line
+	git remote add origin https://github.com/AstiArtKN/hoc_cach_Upload_lenh.git
+	git branch -M main
+	git push -u origin main
